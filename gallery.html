@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="photo.css">
+</head>
+<body>
+    
+    <!-- Overlay div for the large image -->
+    <div class="img" id="img1box">
+        <img src="file:///C:/Users/hp/Pictures/Screenshots/pcu1.png" id="openimg">
+        <span onclick="closeimg()">X</span> <!-- Close button -->
+    </div>
+
+    <!-- Image gallery -->
+    <div class="photo1">
+        <img src="file:///C:/Users/hp/Pictures/Screenshots/pcu1.png" onclick="openimg(this)">
+        <img src="file:///C:/Users/hp/Pictures/Screenshots/pcu2.png" onclick="openimg(this)">
+        <img src="file:///C:/Users/hp/Pictures/Screenshots/pcu3.png" onclick="openimg(this)">
+        <img src="file:///C:/Users/hp/Pictures/Screenshots/pcu4.png" onclick="openimg(this)">
+        <img src="file:///C:/Users/hp/Pictures/Screenshots/pcu5.png" onclick="openimg(this)">
+        <img src="file:///C:/Users/hp/Pictures/Screenshots/pcu6.png" onclick="openimg(this)">
+        <img src="file:///C:/Users/hp/Pictures/Screenshots/pcu7.png" onclick="openimg(this)">
+        <img src="file:///C:/Users/hp/Pictures/Screenshots/pcu8.png" onclick="openimg(this)">
+    </div>
+
+    <script src="photo.js"></script>
+</body>
+</html>
